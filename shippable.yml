@@ -3,8 +3,8 @@ language: scala
 scala:
   - 2.10.2
 
-addons:
-  postgresql: "9.3"
+#addons:
+ # postgresql: "9.3"
 
 before_script:
   - psql -U postgres -f pg.sql
@@ -19,4 +19,4 @@ after_script:
 
 notifications:
   email:
-    - exampleone@org.com    
+    - varsha@shippable.com    
